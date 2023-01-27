@@ -1,0 +1,19 @@
+@import url('../styles.css/cabecalho.css');
+@import url('../styles.css/main.css');
+@import url('../styles.css/footer.css');
+@import url('../styles/.css');
+
+:root {
+    --cor-de-fundo-inicial: #3772FF;
+    --branco: #FFFFFF;
+    --rodape: #36D6AD;
+    --coral: #FC7071;
+    --coral-claro: #FF9D9E;
+    --creme: #FCF0E3;
+    --preto: #000000;
+    --cinza: #737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundos:#F6F6F6;
+    --fonte-principal: 'Poppins';
+   
+}

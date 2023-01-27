@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/reset.css">
+    <title>Adopet - Cadastro</title>
+</head>
+<body>
+    <header class="cabecalho">
+
+        <nav class="cabecalho__nav">
+
+            <a href="#">
+                <img src="./images/Casa.svg">
+            </a>
+
+            <a href="#">    
+                <img src="./images/Mensagens.svg" alt="">
+            </a>
+        </nav>
+        
+        <div class="header-dsktp">
+
+            <img class="logo-dsktp" src="./images/Logo.svg">
+
+            <nav class="cabecalho__nav-dsktp">
+
+                <a href="#">
+                    <img src="./images/Casa.svg">
+                </a>
+    
+                <a href="#">    
+                    <img src="./images/Mensagens.svg" alt="">
+                </a>
+            </nav>
+        </div>
+        
+        <div class="cp-title-subtitle">
+            <img class="cp-logo-img" src="./images/Logos-03.svg">
+
+            <p class="cp-subtitle">Ainda não tem cadastro?<br><br>Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+        </div>
+    </header>
+
+    <main class="conteudo-principal">
+        <section class="cp-forms">
+            <form class="forms">
+
+                <label class="forms__label">E-mail</label>
+                <input class="forms__input" type="email" required placeholder="Escolha seu melhor e-mail">
+
+                <label class="forms__label" class="labelPadrao">Nome</label>
+                <input class="forms__input" type="text" required placeholder="Digite seu nome completo">
+
+                <label class="forms__label">Senha</label>
+                <input class="forms__input input-bg input-senhas" type="password" required placeholder="Crie uma senha">
+
+                <label class="forms__label" class="labelPadrao">Confirmar sua Senha</label>
+                <input class="forms__input input-bg input-senhas" type="password" required placeholder="Repita a senha criada acima">
+
+                <div class="frm-input">
+                    <input class=" forms__input submit" type="submit" value="Cadastrar!">
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p class="rdp-p">2023 - Desenvolvido por Roberto Falcão</p>
+    </footer>
+</body>

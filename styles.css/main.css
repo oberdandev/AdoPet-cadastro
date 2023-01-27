@@ -1,0 +1,150 @@
+body {
+    background: url(../images/Forma\ 3.svg) no-repeat, #FFFFFF;
+    background-position: left 78%, 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cp-forms {
+    padding: 3em 3em 0em 3em;
+    margin-top: 2.5em;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.forms__label {
+    margin-bottom: 0.5em;
+    margin-top: 1.3em;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.forms__input {
+    padding: 1em;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px rgb(0 0 0 / 25%);
+    border-radius: 6px;
+    background-color: var(--cinza-claro-fundos);
+    outline: none;
+}
+
+.forms__input::placeholder {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+    
+}
+
+.frm-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit {
+    margin-bottom: 0.5em;
+    margin-top: 2em;
+    width: 148px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--branco);
+    background-color: var(--coral);
+    box-shadow: 2px 2px;
+    transition: all .4s ease-in;
+}
+
+.submit:hover {
+    background-color: var(--coral-claro);
+}
+
+.submit:active {
+    border-color: var(--cor-de-fundo-inicial);
+}
+
+.input-bg::placeholder {
+    background-image: url(../images/olho.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background: url(../images/Forma\ 2.svg) no-repeat, #FFFFFF;
+        background-position: right 78%, 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .forms {
+        width: 20em;
+    }
+
+    .cp-forms {
+        padding: 3em 1em 0em 14em;
+    }
+
+    .forms__input::placeholder {
+        font-size: 14px;
+        
+    }
+
+    .submit {
+        font-size: 18px;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .forms {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding-top: 3em;
+    }
+
+    .cp-forms {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .forms-label {
+        font-size: 18px;
+        
+    }
+
+    .forms__input {
+        width: 35em;
+
+    }
+
+    .forms__input::placeholder {
+        font-size: 16px;
+        
+    }
+
+    .forms-label {
+        font-size: 18px;
+    }
+
+    .input-senhas {
+        width: 25em;
+    }
+
+    .submit {
+        width: 10em;
+    }
+
+}
