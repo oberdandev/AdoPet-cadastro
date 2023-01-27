@@ -15,6 +15,7 @@
 @media screen and (min-width: 768px) {
     .rodape {
         font-size: 16px;
+        margin-top: 15em;
     }
 }
 
