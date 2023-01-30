@@ -52,16 +52,16 @@
 
     <main class="conteudo-principal">
         <section class="cp-forms">
-            <form class="forms">
+            <form class="forms" action="/login" method="post">
 
                 <label class="forms__label">E-mail</label>
-                <input class="forms__input" type="email" required placeholder="Escolha seu melhor e-mail">
+                <input class="forms__input" id="email" name="email" type="email" required placeholder="Escolha seu melhor e-mail">
 
-                <label class="forms__label" class="labelPadrao">Nome</label>
-                <input class="forms__input" type="text" required placeholder="Digite seu nome completo">
+                <label class="forms__label"  class="labelPadrao">Nome</label>
+                <input class="forms__input" id="name" name="name" type="text" required placeholder="Digite seu nome completo">
 
                 <label class="forms__label">Senha</label>
-                <input class="forms__input input-bg input-senhas" type="password" required placeholder="Crie uma senha">
+                <input class="forms__input input-bg input-senhas" type="password" id="password" name="password" required placeholder="Crie uma senha">
 
                 <label class="forms__label" class="labelPadrao">Confirmar sua Senha</label>
                 <input class="forms__input input-bg input-senhas" type="password" required placeholder="Repita a senha criada acima">
