@@ -8,6 +8,7 @@ const UserRoute = express.Router();
 
 UserRoute.post('/', userController.create)
 UserRoute.get('/', (req, res) => res.sendFile(path.resolve('./index.html')))
+UserRoute.get('/users', userController.findAll)
 
 
 export default UserRoute
